@@ -1,0 +1,55 @@
+/*Introdução de elementos*/
+body {
+    background-color: rgb(221, 22, 32);
+    border: 5px rgb(4, 4, 7) solid;
+    margin: auto; /*10px 10px 15px 15px*/ ;
+    padding: 0 auto;
+}
+/*Requisilçao ID*/
+#bodyindex{
+    background-color:rgb(12, 128, 230)
+}
+h3 {
+    text-align: center;
+    color:rgb(8, 6, 3)
+}
+p{
+    color:rgb(0, 0, 0)
+}
+table tr {
+    text-align: center;
+}
+/*Estrutura do menu*/
+.menu{
+    list-style: none;
+    border: 5px solid black;
+    float: left;
+}
+.menu li{
+    position:relative;
+    float: left;
+    border-right: 2px solid ;
+} 
+.menu li a {
+    color: rgb(205, 240, 8);
+    text-decoration: none;
+    padding: 5px 12px;
+    display: block;
+}
+.menu li a:hover {
+    background: green;
+    color: rgb(248, 244, 6);
+    box-shadow: 3px 10px;
+    text-shadow: 5px 2px 5px darkorange;
+}
+.menu li ul{
+    position:absolute;
+    top:20px;
+    left:0px;
+    background-color: cornflowerblue
+}
+
+
+
+
+

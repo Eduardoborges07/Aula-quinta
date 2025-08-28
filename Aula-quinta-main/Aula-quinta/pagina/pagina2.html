@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <!--Tabelas-->
+<table border="5">
+    <tr align="center">
+        <th>1</th>
+        <th>1</th>
+        <th>1</th>
+        <tr align="center">
+        <td>CARRO CARO</td>
+        <td>MOTO GRANDE</td>
+        <td>AVIAO DOIDAO</td>
+    </tr>
+    <tr align="right">
+        <td>CARRO</td>
+        <td>MOTO</td>
+        <td>AVIAO</td>
+    </tr>
+    <tr>
+        <td>CARRO</td>
+        <td>MOTO</td>
+        <td>AVIAO</td>
+    </tr>
+</table>
+    <!--Formulários-->
+    <form action="arquivo.sql" method="post" >
+        <h3 align="center">Formulário</h3>
+        <p>Nome: <input type="text" placeholder="esceve ai " size="50"/></p>
+        <P>Telefone: <input type="tel" placeholder="Digita" maxlength="15"/></p>
+        <p>Data de Nascimento: <input type="date" name="DataNascimento"/></p>
+        <p>Senha: <input type="password" maxlength="8"/>
+        <small> Até 8 caracteres</small><p>
+        <p>Email: <input type="email" name="email"/></p>
+        <p>Idade: <input type="number"/><p>
+        <p>Comentários: <textarea rows="5" cols=""></textarea></p>
+        <br />
+        <br />
+        <!--Estrutua de opções-->
+        <p> Gênero:
+        <br>
+        <input type="radio" name="Genero" value="Feminini"/>Feminini
+        <br>
+        <input type="radio" name="Genero" value="Masculini"/>Masculini
+        <br>
+        <input type="radio" name="Genero" value="?"/>?
+        </p>
+        <!--Estrutua de seleção-->
+        <p>Estado de nascimento:
+            <select>
+                <option></option>
+                <option value="DF">DF</option>
+                <option value="BA">BA</option>
+                <option value="GO">GO</option>
+                <option value="MG">MG</option>
+            </select>
+        </p>
+        <br />
+        <!--Estrutura de Check-Box-->
+        <p>
+            <input type="checkbox" name="termos" />
+            Aceito todos os termos desse Formulário!!!!!!!!!
+            <br />
+            <input type="checkbox" name="termos"/>
+            ACEITO O CONTRATO DE LGPD
+        </p>
+        <br />
+        <input type="reset" name="reset"/>
+        <input type="submit" name="submit"/>
+ </form>
+ <!--Estutura de FieldSet-->
+ <fieldset>
+    <legend>Frmulário Central</legend>
+    <label>Nome: <input type="text" >Nome: <input type="text" placeholder="esceve ai " size="50"/></p>
+        <P>Telefone: <input type="tel" placeholder="Digita" maxlength="15"/></p>
+        <p>Data de Nascimento: <input type="date" name="DataNascimento"/></p>
+        <p>Senha: <input type="password" maxlength="8"/>
+        <small> Até 8 caracteres</small><p>
+        <p>Email: <input type="email" name="email"/></p>
+        <p>Idade: <input type="number"/><p>
+        <p>Comentários: <textarea rows="5" cols=""></textarea></p></label>
+    <br />
+    <br />
+
+ </fieldset>
+</body>
+</html>
